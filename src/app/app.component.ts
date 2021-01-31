@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hello-angular';
+  todo = {label: 'Brink Milk', done: false, priority: 3}
 }
