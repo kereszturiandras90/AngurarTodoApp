@@ -6,9 +6,9 @@
     <th>Priority</th>
     <th>Done</th>
     </tr>
-    <tr *ngfor= "let todo of todos" >
+    <tr *ngFor= "let todo of todos" >
       <td>{{todo.label}}</td>
       <td>{{todo.priority}}</td>
-      <td>{{todo.done}}</td>
+      <td>{{todo.done ? '&H10003;' : '&H10005;'}}</td>
       </tr>
   </table>
