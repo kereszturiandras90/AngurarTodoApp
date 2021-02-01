@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'My todos';
-  todo = [{label: 'Brink Milk', done: false, priority: 3}, 
+  todos = [{label: 'Brink Milk', done: false, priority: 3}, 
   {label: 'clean room', done: true, priority: 1},
   {label: 'kill bill', done: false, priority: 2}]
 }
