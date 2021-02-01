@@ -1,7 +1,14 @@
-<h1>{title}</h1>
+<h1>{{title}}</h1>
 
-<div>
-<b>{{todo.label}}</b>
-<i>{{todo.label}}</i>
-
-  </div>>
+<table>
+  <tr>
+    <th>Label</th>
+    <th>Priority</th>
+    <th>Done</th>
+    </tr>
+    <tr *ngfor= "let todo of todos" >
+      <td>{{todo.Label}}</td>
+      <td>{{todo.Priority}}</td>
+      <td>{{todo.Done}}</td>
+      </tr>
+  </table>
